@@ -2,3 +2,12 @@
 - git init -> inicia un proyecto en la carpeta actual
 - git status -> estado actual del repositorio comparado con la version anterior
 - git add . -> agrega todos los cambios
+- git commit -m 'iniciando repositorio desde casa'
+- git branch -M main
+- git remote add origin https://github.com/ordonez93/retomando_python.git
+- git push -u origin main
+
+*********cuando el programa ya esta creado***********
+- git add .
+- git commit -m 'comentario para el commit'
+- git push
