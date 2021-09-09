@@ -14,3 +14,4 @@
 
 ****** para clonar repositorio ****
 - git clone 'url_del_repositorio
+- conectar con msql
