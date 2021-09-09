@@ -1,0 +1,4 @@
+*********iniciando por primera vez *************
+- git init -> inicia un proyecto en la carpeta actual
+- git status -> estado actual del repositorio comparado con la version anterior
+- git add . -> agrega todos los cambios
