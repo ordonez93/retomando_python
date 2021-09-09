@@ -11,3 +11,6 @@
 - git add .
 - git commit -m 'comentario para el commit'
 - git push
+
+****** para clonar repositorio ****
+- git clone 'url_del_repositorio
