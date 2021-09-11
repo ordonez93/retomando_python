@@ -14,3 +14,51 @@
 
 ****** para clonar repositorio ****
 - git clone 'url_del_repositorio
+
+*****anexar requerimientos del proyecto*****
+pip freeze > requirements.txt
+
+***temas desues del parcial **
+HTML
+CSS
+JAVASCRIP
+BOOTSTRAP
+ENTORNOS VIRTUALES
+FLASK
+ARQUITECTURA MVC(FALSK)
+///historia,sintaxis,como se usa, entornos virtuales,como se instala,como esta su arquitectura
+
+==========================
+*****dividir procesos o funiones para iportar *****
+
+-from 'nombre_archivo' import 'funcion o proceso a importar'
+
+-si el archivo esta dentro de una o mas capetas se accede mediante el punto '.' 
+ from nombre_carpeta.nombre_archivo import funcion_proceso // o tambien 
+from nombre_carperta.nombre_subcarpeta.nombre_archivo import funcion_proceso
+
+==============
+*** omitir los archivos que git no subira al repositorio **
+
+se crea un archivo llamado .gitignore y dentro de este archivo se escribe _pycache_
+esto hace que los archivos con cache no se suban.
+ 
+============
+**** crear documentacion al proyecto *****
+dentro de la raiz del proyecto se crea un archivo llamado readme.md 
+se pone titulos con '#' mas titulo ejempo  # Requrimientos del sistema 
+luego se describe los mas resumido y entendible posible la descripcion 
+ejemplo: 1.utilizar python 3.9
+	 2.mysql 5.7
+
+# Instalacion del sistema
+  se requiere crear una base de datos e importar el archivo blog.sql cargado en el la url 'direccion url'
+  para correr el sistema, es necesario ejecutar el comando 
+  python app.py
+
+ NOTA: en plataformas de inforamcion se visualiza o la plataforma da prioridad a los archivos readme.md
+
+
+
+
+
